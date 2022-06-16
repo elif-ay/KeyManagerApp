@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Key Manager</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="open_gallery">Select from Gallery</string>
+    <string name="save_image">Save Image</string>
+    <string name="NameOfTheKey">Name Of The Key</string>
+    <string name="saveImage">Save</string>
+    <string name="reCapture">Recapture</string>
+    <string name="delete">Delete</string>
+    <string name="showRecords">Show Records</string>
+    <string name="name">Name</string>
+    <string name="name_of_the_key">Name of the key</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="find_your_key">FIND YOUR KEY</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpencvCamera"
+    android:layout_gravity="center"
+    android:foregroundGravity="center">
+
+
+    <ImageView
+        android:id="@+id/capturedImageToCompare"
+        android:layout_width="280dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="195dp"
+        app:layout_constraintBottom_toTopOf="@+id/compareButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/compareNameEditText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="209dp"
+        android:ems="20"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:hint="Compare With"
+        android:textColorHighlight="#23D333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/capturedImageToCompare" />
+
+    <Button
+        android:id="@+id/compareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="95dp"
+        android:text="Compare"
+        android:textColor="@android:color/background_light"
+        android:background="#53CE90"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compareNameEditText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaveImage">
+
+    <TextView
+        android:id="@+id/textViewSaveImage"
+        android:layout_width="415dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="45dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="@color/black"
+        android:text="Save Your Key"
+        android:textColor="#295055"
+        android:textColorHighlight="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/SaveImageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSaveImage"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editTextKeyName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="209dp"
+        android:ems="20"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:hint="@string/name_of_the_key"
+        android:textColorHighlight="#23D333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/saveImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:text="Save"
+        android:textColor="@android:color/background_light"
+        android:background="#4CAF50"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
